@@ -85,6 +85,14 @@
 				"IOS",
 				"TVOS"
 			]
+		},
+		{
+			"Name": "UdpMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "TcpMessaging",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
