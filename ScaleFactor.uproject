@@ -93,6 +93,10 @@
 		{
 			"Name": "TcpMessaging",
 			"Enabled": false
+		},
+		{
+			"Name": "OpenImageDenoise",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
