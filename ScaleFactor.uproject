@@ -85,6 +85,18 @@
 				"IOS",
 				"TVOS"
 			]
+		},
+		{
+			"Name": "UdpMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "TcpMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "OpenImageDenoise",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
