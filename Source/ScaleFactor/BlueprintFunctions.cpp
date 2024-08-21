@@ -3,7 +3,7 @@
 
 #include "BlueprintFunctions.h"
 
-void UBlueprintFunctions::test()
+float UBlueprintFunctions::GetMass(UStaticMeshComponent* obj)
 {
-	int x = 5;
+	return obj->GetMass();
 }
