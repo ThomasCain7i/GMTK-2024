@@ -3,7 +3,8 @@
 
 #include "BlueprintFunctions.h"
 
-void UBlueprintFunctions::test()
+void UBlueprintFunctions::test(UStaticMeshComponent* obj)
 {
+
 	int x = 5;
 }

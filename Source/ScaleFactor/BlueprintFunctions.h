@@ -14,6 +14,6 @@ class SCALEFACTOR_API UBlueprintFunctions : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 	UFUNCTION(BlueprintCallable, Category = "Test")
-	static void test();
+	static void test(UStaticMeshComponent* obj);
 
 };
