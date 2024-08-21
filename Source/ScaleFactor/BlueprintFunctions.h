@@ -13,7 +13,7 @@ UCLASS()
 class SCALEFACTOR_API UBlueprintFunctions : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-	UFUNCTION(BlueprintCallable, Category = "Test")
-	static void test(UStaticMeshComponent* obj);
+	UFUNCTION(BlueprintCallable, Category = "ScaleFactor")
+	static float GetMass(UStaticMeshComponent* obj);
 
 };
