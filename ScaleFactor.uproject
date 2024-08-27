@@ -5,13 +5,6 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "OnlineSubsystemGooglePlay",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Android"
-			]
-		},
-		{
 			"Name": "AppleImageUtils",
 			"Enabled": false
 		},
@@ -245,10 +238,13 @@
 		{
 			"Name": "MediaPlayerEditor",
 			"Enabled": false
+		},
+		{
+			"Name": "UltiAdditions",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
-		"Windows",
-		"Android"
+		"Windows"
 	]
 }
