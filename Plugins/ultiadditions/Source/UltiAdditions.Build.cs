@@ -7,6 +7,8 @@ public class UltiAdditions : ModuleRules
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
+		bUsePrecompiled = true;
+		
 		PublicIncludePaths.AddRange(
 			new string[] {
 				// ... add public include paths required here ...
@@ -14,13 +16,13 @@ public class UltiAdditions : ModuleRules
 			);
 				
 		
-		PrivateIncludePaths.AddRange(
 			new string[] {
 				// ... add other private include paths required here ...
 			}
 			);
 			
-		
+				PrivateIncludePaths.AddRange(
+
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
