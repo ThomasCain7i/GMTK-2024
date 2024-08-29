@@ -74,4 +74,4 @@ DerivedDataCache/*
 Android_ASTC/
 Intermediate/
 Saved/
-!Plugins/*
+!Plugins/**
