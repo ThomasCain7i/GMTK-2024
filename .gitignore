@@ -47,8 +47,8 @@ SourceArt/**/*.tga
 # Binary Files
 
 
+
 # Binary
-Binaries/*
 
 # Builds
 Build/*
@@ -68,8 +68,10 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
 Android_ASTC/
+Intermediate/
+Saved/
+!Plugins/*
